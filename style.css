@@ -1,0 +1,31 @@
+body {
+  background-image: url(img/mp_background.jpg);
+  text-align: center;
+}
+/*Learned that when applying the background image you have to consider:
+- if your html css and image are all in the same directory use:
+  mp_background.jpg, no quotes and no forward slashes
+- however if you css or image are in subdirectories of where your html lives, you'll want to make sure you correctly path:
+background-image: url(../img/mp_background.jpg); in this case css and image live in subdirectories
+background-image: url(img/mp_background.jpg) css lives with html but img is a subdirectory*/
+  
+.main-h2 {
+  color:white;
+}
+
+.headings{
+  color: #00b33c;
+  background-color: #999999;
+  position: relative;
+  background: rgba(255,255,255,0.3);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.mp-box{
+  font-size: 24px;
+  width: 450px;
+  background-color: #c9c9c9;
+  background: rgba(255,255,255,0.3);
+  text-align: center;
+  margin:auto;
+}
