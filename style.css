@@ -1,5 +1,5 @@
 body {
-  background-image: url(img/mp_background.jpg);
+  background-image: url(img/mp_wood.jpg);
   text-align: center;
 }
 /*Learned that when applying the background image you have to consider:
@@ -8,7 +8,29 @@ body {
 - however if you css or image are in subdirectories of where your html lives, you'll want to make sure you correctly path:
 background-image: url(../img/mp_background.jpg); in this case css and image live in subdirectories
 background-image: url(img/mp_background.jpg) css lives with html but img is a subdirectory*/
-  
+ 
+
+h1,
+p,
+ul,
+ol,
+h3,
+h2 {
+  color: white;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3{
+  text-decoration-line: underline;
+}
+
+div{
+  width: 600px;
+  text-align: left;
+  margin: auto;
+}
 .main-h2 {
   color:white;
 }
@@ -26,6 +48,6 @@ background-image: url(img/mp_background.jpg) css lives with html but img is a su
   width: 450px;
   background-color: #c9c9c9;
   background: rgba(255,255,255,0.3);
-  text-align: center;
+  text-align: left;
   margin:auto;
 }
