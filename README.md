@@ -24,3 +24,4 @@ Then second part of the project is CSS:
 - how to use css box models
 - how to reduce repetition of rules and make css easy to read
 - how to style text in css
+- how to style links: use this order a:link, a:visited, a:hover, a:active

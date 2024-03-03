@@ -32,8 +32,18 @@ div {
   width: 600px;
   text-align: left;
   margin: auto;
-  align-items: center;
 }
+
+a{
+
+color: white;
+
+}
+
+a:hover{
+  color:aquamarine;
+}
+
 .main-h2 {
   color:white;
 }
