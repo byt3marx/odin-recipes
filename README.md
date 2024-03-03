@@ -12,4 +12,15 @@ Here Is the list of things I have learned from this first small project:
 - how to resize the images with width and height 
 - how to use ordered and unordered lists
 - how to commit my changes to github and how to make good commit messages for others to understand my changes
-- 
+
+
+Then second part of the project is CSS:
+
+- how to link a css file to my html file
+- how to use inline, internal and my favourite external css
+- how to use divs and spans in my css coding
+- how to use classes and IDs
+- how all the elements, classes, IDs top eachother by superiority 
+- how to use css box models
+- how to reduce repetition of rules and make css easy to read
+- how to style text in css
