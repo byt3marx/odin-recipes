@@ -1,10 +1,17 @@
-/** {
+/* {
   outline: 2px solid blue;
 }*/
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-image: url(img/mp_wood.jpg);
   text-align: center;
+  position: relative;
+  background-attachment: fixed; /*So the background doesn't move when you scroll*/
+
 }
 
  
@@ -14,12 +21,15 @@ body {
   Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-button {
+button {/*Here is the styling of the HOME button*/
   background-color: rgba(126, 93, 4, 0.856);
   font-size: 20px;
   font-weight: 700;
   padding: 8px;
   border: double;
+  position: fixed;
+  left: 0px;
+  top: 25px;
 
 }
 
@@ -68,20 +78,21 @@ a:hover{
   background-color: #999999;
   position: relative;
   background: rgba(255,255,255,0.2);
+  min-width: 200px;
   
   font-size: 40px;
 
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 10px;
   border-style: double;
   border-color: rgba(0, 0, 0, 0.3);
 }
 .mp-box{
   font-size: 24px;
-  width: 450px;
+  width: 500px;
   background-color: #c9c9c9;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.12);
   text-align: left;
-  margin:auto;
+  margin: auto;
 }
